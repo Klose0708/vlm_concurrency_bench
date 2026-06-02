@@ -1,0 +1,35 @@
+# Runtime outputs
+logs/
+results/
+*.out
+*.err
+*.log
+
+# Model and dataset caches
+models/
+cache/
+.cache/
+hf/
+torch/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+envs/
+
+# Large local artifacts
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.tar
+*.tar.gz
+*.zip
+
+# Nested third-party repository metadata
+third_party/**/.git/
